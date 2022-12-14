@@ -1,10 +1,14 @@
+#ifndef SELIM_H
+#define SELIM_H
+
+
 #include <stdio.h>
 #include "main.h"
 #include <ctype.h>
 #include <unistd.h>
 
 /**
-*File:main.h
+*File:selim.h
 *Author:Pericles Adjovi
 *Desc:header file containing functions declaration
 */
@@ -53,3 +57,6 @@ int _abs(int)
 
 int add(int n, int m);
 int print_last_digit(int n);
+
+
+#endif /* SELIM_H */

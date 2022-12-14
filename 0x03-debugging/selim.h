@@ -5,6 +5,12 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+*File:selim.h
+*Author:Pericles Adjovi
+*Desc:header file containing functions declaration
+*/
+
 
 void positive_or_negative(int n)
 {
