@@ -1,5 +1,4 @@
-#include "main.h"
-#include "0-positive_or_negative.c"
+#include "selim.h"
 
 /**
 * main - tests function that prints if integer is positive or negative
