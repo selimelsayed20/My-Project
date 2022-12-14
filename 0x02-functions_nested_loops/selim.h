@@ -39,6 +39,12 @@ int print_sign(int n)
 	print_sign(x);
 
 }
-int _abs(int);
+int _abs(int)
+{
+	int x=25;
+	_abs(x);
+
+}
+
 int add(int n, int m);
 int print_last_digit(int n);
