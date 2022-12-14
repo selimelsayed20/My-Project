@@ -1,13 +1,18 @@
 #include <stdio.h>
 #include "main.h"
-#include "_putchar.c"
 #include <ctype.h>
+#include <unistd.h>
 
 /**
 *File:main.h
 *Author:Pericles Adjovi
 *Desc:header file containing functions declaration
 */
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
 
 void print_alphabet(void)
 {

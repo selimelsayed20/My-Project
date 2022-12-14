@@ -1,5 +1,4 @@
-#include "main.h"
-#include "_putchar.c"
+#include "selim.h"
 /**
 *main - function prints text as output
 *
