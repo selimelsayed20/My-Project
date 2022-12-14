@@ -1,6 +1,4 @@
-#include "main.h"
-#include <stdio.h>
-#include <ctype.h>
+#include "selim.h"
 
 /**
  * _islower - Shows 1 if the input is a
@@ -11,8 +9,9 @@
  *
  * Return: 1 for lowercase character. 0 for the rest.
  */
-int _islower(int c)
+int main(int c)
 {
+	
 	if (islower(c))
 	{
 		return (1);

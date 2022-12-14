@@ -1,6 +1,4 @@
-#include "main.h"
-#include <stdio.h>
-#include <ctype.h>
+#include "selim.h"
 
 /**
  * print_sign - Determines if the input number
@@ -11,7 +9,7 @@
  * Return: 1 is greater than zero. 0 is zero.
  * -1 is less than zero.
  */
-int print_sign(int n)
+int main(int n)
 {
 	if (n > 0)
 	{

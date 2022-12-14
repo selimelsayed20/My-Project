@@ -1,6 +1,5 @@
-#include "main.h"
-#include <stdio.h>
-#include <ctype.h>
+#include "selim.h"
+
 
 /**
  * _isalpha - Shows 1 if the input is a
@@ -10,7 +9,7 @@
  *
  * Return: 1 for letters. 0 for the rest.
  */
-int _isalpha(int c)
+int main(int c)
 {
 	if (isalpha(c))
 	{
