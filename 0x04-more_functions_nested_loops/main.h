@@ -16,5 +16,7 @@ void print_square(int);
 void print_triangle(int);
 void print_number(int n);
 void print_diagonal(int n);
+void print_line(int n);
+
 
 #endif /* MAIN_H */
