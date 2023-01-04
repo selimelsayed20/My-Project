@@ -1,4 +1,6 @@
 #include "main.h"
+#include "6-main.c"
+#include "_putchar.c"
 
 /**
  * is_prime - detects if an input number is a prime number.
